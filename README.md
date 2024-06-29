@@ -1,152 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Accommodation Administration System Using Python</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        a {
-            color: #0066cc;
-        }
-        .toc a {
-            text-decoration: none;
-        }
-        .screenshot {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
+# Accommodation Administration System Using Python
 
-<h1>Accommodation Administration System Using Python</h1>
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Screenshots](#screenshots)
+7. [Configuration](#configuration)
+8. [Contributing](#contributing)
+9. [License](#license)
+10. [Contact](#contact)
 
-<h2>Table of Contents</h2>
-<ol class="toc">
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#technologies-used">Technologies Used</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#screenshots">Screenshots</a></li>
-    <li><a href="#configuration">Configuration</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ol>
+## Introduction
+The Accommodation Administration System is a Python-based application designed to manage accommodations efficiently. This system allows users to handle various tasks such as booking, checking availability, and managing customer information.
 
-<h2 id="introduction">Introduction</h2>
-<p>The Accommodation Administration System is a Python-based application designed to manage accommodations efficiently. This system allows users to handle various tasks such as booking, checking availability, and managing customer information.</p>
+## Features
+- User-friendly interface
+- Booking management
+- Availability checking
+- Customer information management
+- Reporting and analytics
 
-<h2 id="features">Features</h2>
-<ul>
-    <li>User-friendly interface</li>
-    <li>Booking management</li>
-    <li>Availability checking</li>
-    <li>Customer information management</li>
-    <li>Reporting and analytics</li>
-</ul>
+## Technologies Used
+- Python 3.x
+- Tkinter (for user interface)
+- SQLite (for database management)
 
-<h2 id="technologies-used">Technologies Used</h2>
-<ul>
-    <li>Python 3.x</li>
-    <li>Tkinter (for user interface)</li>
-    <li>SQLite (for database management)</li>
-</ul>
+## Installation
+To install and run the Accommodation Administration System, follow these steps:
 
-<h2 id="installation">Installation</h2>
-<p>To install and run the Accommodation Administration System, follow these steps:</p>
-<ol>
-    <li><strong>Clone the repository:</strong>
-        <pre><code>git clone https://github.com/yourusername/Accommodation-Administration-System.git
-cd Accommodation-Administration-System</code></pre>
-    </li>
-    <li><strong>Create a virtual environment:</strong>
-        <pre><code>python -m venv venv</code></pre>
-    </li>
-    <li><strong>Activate the virtual environment:</strong>
-        <ul>
-            <li>On Windows:
-                <pre><code>venv\Scripts\activate</code></pre>
-            </li>
-            <li>On macOS/Linux:
-                <pre><code>source venv/bin/activate</code></pre>
-            </li>
-        </ul>
-    </li>
-    <li><strong>Install the required packages:</strong>
-        <pre><code>pip install -r requirements.txt</code></pre>
-    </li>
-    <li><strong>Initialize the database:</strong>
-        <pre><code>python initialize_db.py</code></pre>
-    </li>
-    <li><strong>Run the application:</strong>
-        <pre><code>python main.py</code></pre>
-    </li>
-</ol>
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/Accommodation-Administration-System.git
+    cd Accommodation-Administration-System
+    ```
 
-<h2 id="usage">Usage</h2>
-<p>To use the Accommodation Administration System, follow these steps:</p>
-<ol>
-    <li>Run the application as described in the installation section.</li>
-    <li>Use the Tkinter-based interface to manage bookings, check availability, and handle customer information.</li>
-</ol>
+2. **Create a virtual environment:**
+    ```sh
+    python -m venv venv
+    ```
 
-<h2 id="screenshots">Screenshots</h2>
-<p>Here are some screenshots of the Accommodation Administration System:</p>
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/248f8f38-8eec-4b10-938f-dcb4b191b6f1" alt="Screenshot 1" class="screenshot">
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/ad8810ad-6ada-4c72-a65d-a1faa0f02b02" alt="Screenshot 2" class="screenshot">
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/c5c2f893-92f3-40ca-b688-c79ea9c78d84" alt="Screenshot 3" class="screenshot">
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/f4f62e32-c445-4ef9-9f69-a11d39d7a3c2" alt="Screenshot 4" class="screenshot">
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/916d11b8-3f25-439d-8ade-7873a77dc487" alt="Screenshot 5" class="screenshot">
-<img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/e747396a-4d1a-48d0-b1c3-b0d8dc311a0a" alt="Screenshot 6" class="screenshot">
+3. **Activate the virtual environment:**
+    - On Windows:
+        ```sh
+        venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```sh
+        source venv/bin/activate
+        ```
 
-<h2 id="configuration">Configuration</h2>
-<p>Configuration settings for the application can be found in the <code>config.py</code> file. Adjust these settings according to your environment and requirements.</p>
+4. **Install the required packages:**
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-<h2 id="contributing">Contributing</h2>
-<p>We welcome contributions to the Accommodation Administration System! To contribute, follow these steps:</p>
-<ol>
-    <li>Fork the repository.</li>
-    <li>Create a new branch:
-        <pre><code>git checkout -b feature-name</code></pre>
-    </li>
-    <li>Make your changes and commit them:
-        <pre><code>git commit -m "Description of the feature"</code></pre>
-    </li>
-    <li>Push to the branch:
-        <pre><code>git push origin feature-name</code></pre>
-    </li>
-    <li>Create a pull request on GitHub.</li>
-</ol>
+5. **Initialize the database:**
+    ```sh
+    python initialize_db.py
+    ```
 
-<h2 id="license">License</h2>
-<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+6. **Run the application:**
+    ```sh
+    python main.py
+    ```
 
-<h2 id="contact">Contact</h2>
-<p>For any questions or suggestions, please contact:</p>
-<ul>
-    <li>Harsh Singh: <a href="mailto:harshjuly12@gmail.com">harshjuly12@gmail.com</a></li>
-    <li>GitHub: <a href="https://github.com/harshjuly12">harshjuly12</a></li>
-</ul>
+## Usage
+To use the Accommodation Administration System, follow these steps:
+1. Run the application as described in the installation section.
+2. Use the Tkinter-based interface to manage bookings, check availability, and handle customer information.
 
-</body>
-</html>
+## Screenshots
+Here are some screenshots of the Accommodation Administration System:
+
+![Screenshot 1](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/248f8f38-8eec-4b10-938f-dcb4b191b6f1)
+![Screenshot 2](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/ad8810ad-6ada-4c72-a65d-a1faa0f02b02)
+![Screenshot 3](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/c5c2f893-92f3-40ca-b688-c79ea9c78d84)
+![Screenshot 4](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/f4f62e32-c445-4ef9-9f69-a11d39d7a3c2)
+![Screenshot 5](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/916d11b8-3f25-439d-8ade-7873a77dc487)
+![Screenshot 6](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/e747396a-4d1a-48d0-b1c3-b0d8dc311a0a)
+
+## Configuration
+Configuration settings for the application can be found in the `config.py` file. Adjust these settings according to your environment and requirements.
+
+## Contributing
+We welcome contributions to the Accommodation Administration System! To contribute, follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature-name
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m "Description of the feature"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature-name
+    ```
+5. Create a pull request on GitHub.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, please contact:
+- Harsh Singh: [harshjuly12@gmail.com](harshjuly12@gmail.com)
+- GitHub: [harshjuly12](https://github.com/harshjuly12)
