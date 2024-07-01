@@ -1,4 +1,9 @@
-# Accommodation Administration System Using Python
+<table>
+  <tr>
+    <td><img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/6ebc6d50-8be0-44df-9c5e-b37e81bae6f3" width="80" style="margin-right: 10px;"></td>
+    <td><h1 style="margin: 0;">Accommodation Administration System Using Python</h1></td>
+  </tr>
+</table>
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -13,7 +18,7 @@
 10. [Contact](#contact)
 
 ## Introduction
-The Accommodation Administration System is a Python-based application designed to manage accommodations efficiently. This system allows users to handle various tasks such as booking, checking availability, and managing customer information.
+Accommodation Administration System is to streamline and enhance the local management and operations of various types of local accommodations, such as hotels, resorts, motels, lodges, and even vacation rentals. This system serves as a central hub that automates and optimizes a wide range of tasks with benefits of efficient & enhanced Guest Experience, increased Revenue (accurate pricing, upsell opportunities, and better occupancy management lead to increased revenue)
 
 ## Features
 - User-friendly interface
