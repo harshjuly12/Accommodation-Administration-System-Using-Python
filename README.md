@@ -76,10 +76,6 @@ Here are some screenshots of the Accommodation Administration System:
 
 ![Screenshot 1](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/248f8f38-8eec-4b10-938f-dcb4b191b6f1)
 ![Screenshot 2](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/ad8810ad-6ada-4c72-a65d-a1faa0f02b02)
-![Screenshot 3](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/c5c2f893-92f3-40ca-b688-c79ea9c78d84)
-![Screenshot 4](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/f4f62e32-c445-4ef9-9f69-a11d39d7a3c2)
-![Screenshot 5](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/916d11b8-3f25-439d-8ade-7873a77dc487)
-![Screenshot 6](https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/e747396a-4d1a-48d0-b1c3-b0d8dc311a0a)
 
 ## Configuration
 Configuration settings for the application can be found in the `config.py` file. Adjust these settings according to your environment and requirements.
