@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/6ebc6d50-8be0-44df-9c5e-b37e81bae6f3" width="80" style="margin-right: 10px;"></td>
+    <td><img src="https://github.com/harshjuly12/Accommodation-Administration-System-Using-Python/assets/112745312/6ebc6d50-8be0-44df-9c5e-b37e81bae6f3" width="80" style="margin-right: 10;"></td>
     <td><h1 style="margin: 0;">Accommodation Administration System Using Python</h1></td>
   </tr>
 </table>
